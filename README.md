@@ -1,7 +1,9 @@
 > This is a bug reproduction repository.
 > 
-> See https://www.pika.dev/npm/snowpack/discuss/275
->     rollup/plugins issue TBA
+> See:
+>
+> - https://www.pika.dev/npm/snowpack/discuss/275
+> - https://github.com/rollup/plugins/issues/440
 
 Upon trying to use a CJS dependency with Snowpack we discovered that the `rollup-plugin-node-polyfills` plugin breaks if the `@rollup/plugin-node-resolve` plugin targets `browser` as a `mainField`.
 
